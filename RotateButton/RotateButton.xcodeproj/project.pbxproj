@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCAC6A4B1967F192002551A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAC6A4A1967F192002551A9 /* Foundation.framework */; };
+		BCAC6A4D1967F192002551A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAC6A4C1967F192002551A9 /* CoreGraphics.framework */; };
+		BCAC6A4F1967F192002551A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAC6A4E1967F192002551A9 /* UIKit.framework */; };
+		BCAC6A551967F192002551A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAC6A531967F192002551A9 /* InfoPlist.strings */; };
+		BCAC6A571967F192002551A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAC6A561967F192002551A9 /* main.m */; };
+		BCAC6A5B1967F192002551A9 /* WARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAC6A5A1967F192002551A9 /* WARAppDelegate.m */; };
+		BCAC6A5E1967F192002551A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAC6A5C1967F192002551A9 /* Main.storyboard */; };
+		BCAC6A611967F192002551A9 /* WARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAC6A601967F192002551A9 /* WARViewController.m */; };
+		BCAC6A631967F192002551A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAC6A621967F192002551A9 /* Images.xcassets */; };
+		BCAC6A6A1967F193002551A9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAC6A691967F193002551A9 /* XCTest.framework */; };
+		BCAC6A6B1967F193002551A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAC6A4A1967F192002551A9 /* Foundation.framework */; };
+		BCAC6A6C1967F193002551A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAC6A4E1967F192002551A9 /* UIKit.framework */; };
+		BCAC6A741967F193002551A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAC6A721967F193002551A9 /* InfoPlist.strings */; };
+		BCAC6A761967F193002551A9 /* RotateButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAC6A751967F193002551A9 /* RotateButtonTests.m */; };
+		BCAC6A821967F1BD002551A9 /* RotateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAC6A811967F1BD002551A9 /* RotateButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCAC6A6D1967F193002551A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAC6A3F1967F192002551A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAC6A461967F192002551A9;
+			remoteInfo = RotateButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCAC6A471967F192002551A9 /* RotateButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAC6A4A1967F192002551A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCAC6A4C1967F192002551A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCAC6A4E1967F192002551A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCAC6A521967F192002551A9 /* RotateButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RotateButton-Info.plist"; sourceTree = "<group>"; };
+		BCAC6A541967F192002551A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCAC6A561967F192002551A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCAC6A581967F192002551A9 /* RotateButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RotateButton-Prefix.pch"; sourceTree = "<group>"; };
+		BCAC6A591967F192002551A9 /* WARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WARAppDelegate.h; sourceTree = "<group>"; };
+		BCAC6A5A1967F192002551A9 /* WARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WARAppDelegate.m; sourceTree = "<group>"; };
+		BCAC6A5D1967F192002551A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCAC6A5F1967F192002551A9 /* WARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WARViewController.h; sourceTree = "<group>"; };
+		BCAC6A601967F192002551A9 /* WARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WARViewController.m; sourceTree = "<group>"; };
+		BCAC6A621967F192002551A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCAC6A681967F193002551A9 /* RotateButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotateButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAC6A691967F193002551A9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BCAC6A711967F193002551A9 /* RotateButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RotateButtonTests-Info.plist"; sourceTree = "<group>"; };
+		BCAC6A731967F193002551A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCAC6A751967F193002551A9 /* RotateButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateButtonTests.m; sourceTree = "<group>"; };
+		BCAC6A801967F1BD002551A9 /* RotateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateButton.h; sourceTree = "<group>"; };
+		BCAC6A811967F1BD002551A9 /* RotateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCAC6A441967F192002551A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAC6A4D1967F192002551A9 /* CoreGraphics.framework in Frameworks */,
+				BCAC6A4F1967F192002551A9 /* UIKit.framework in Frameworks */,
+				BCAC6A4B1967F192002551A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAC6A651967F193002551A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAC6A6A1967F193002551A9 /* XCTest.framework in Frameworks */,
+				BCAC6A6C1967F193002551A9 /* UIKit.framework in Frameworks */,
+				BCAC6A6B1967F193002551A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCAC6A3E1967F192002551A9 = {
+			isa = PBXGroup;
+			children = (
+				BCAC6A501967F192002551A9 /* RotateButton */,
+				BCAC6A6F1967F193002551A9 /* RotateButtonTests */,
+				BCAC6A491967F192002551A9 /* Frameworks */,
+				BCAC6A481967F192002551A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCAC6A481967F192002551A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCAC6A471967F192002551A9 /* RotateButton.app */,
+				BCAC6A681967F193002551A9 /* RotateButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCAC6A491967F192002551A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCAC6A4A1967F192002551A9 /* Foundation.framework */,
+				BCAC6A4C1967F192002551A9 /* CoreGraphics.framework */,
+				BCAC6A4E1967F192002551A9 /* UIKit.framework */,
+				BCAC6A691967F193002551A9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCAC6A501967F192002551A9 /* RotateButton */ = {
+			isa = PBXGroup;
+			children = (
+				BCAC6A7F1967F1BD002551A9 /* RotateButton */,
+				BCAC6A591967F192002551A9 /* WARAppDelegate.h */,
+				BCAC6A5A1967F192002551A9 /* WARAppDelegate.m */,
+				BCAC6A5C1967F192002551A9 /* Main.storyboard */,
+				BCAC6A5F1967F192002551A9 /* WARViewController.h */,
+				BCAC6A601967F192002551A9 /* WARViewController.m */,
+				BCAC6A621967F192002551A9 /* Images.xcassets */,
+				BCAC6A511967F192002551A9 /* Supporting Files */,
+			);
+			path = RotateButton;
+			sourceTree = "<group>";
+		};
+		BCAC6A511967F192002551A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCAC6A521967F192002551A9 /* RotateButton-Info.plist */,
+				BCAC6A531967F192002551A9 /* InfoPlist.strings */,
+				BCAC6A561967F192002551A9 /* main.m */,
+				BCAC6A581967F192002551A9 /* RotateButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCAC6A6F1967F193002551A9 /* RotateButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCAC6A751967F193002551A9 /* RotateButtonTests.m */,
+				BCAC6A701967F193002551A9 /* Supporting Files */,
+			);
+			path = RotateButtonTests;
+			sourceTree = "<group>";
+		};
+		BCAC6A701967F193002551A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCAC6A711967F193002551A9 /* RotateButtonTests-Info.plist */,
+				BCAC6A721967F193002551A9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCAC6A7F1967F1BD002551A9 /* RotateButton */ = {
+			isa = PBXGroup;
+			children = (
+				BCAC6A801967F1BD002551A9 /* RotateButton.h */,
+				BCAC6A811967F1BD002551A9 /* RotateButton.m */,
+			);
+			path = RotateButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCAC6A461967F192002551A9 /* RotateButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAC6A791967F193002551A9 /* Build configuration list for PBXNativeTarget "RotateButton" */;
+			buildPhases = (
+				BCAC6A431967F192002551A9 /* Sources */,
+				BCAC6A441967F192002551A9 /* Frameworks */,
+				BCAC6A451967F192002551A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotateButton;
+			productName = RotateButton;
+			productReference = BCAC6A471967F192002551A9 /* RotateButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCAC6A671967F193002551A9 /* RotateButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAC6A7C1967F193002551A9 /* Build configuration list for PBXNativeTarget "RotateButtonTests" */;
+			buildPhases = (
+				BCAC6A641967F193002551A9 /* Sources */,
+				BCAC6A651967F193002551A9 /* Frameworks */,
+				BCAC6A661967F193002551A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAC6A6E1967F193002551A9 /* PBXTargetDependency */,
+			);
+			name = RotateButtonTests;
+			productName = RotateButtonTests;
+			productReference = BCAC6A681967F193002551A9 /* RotateButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCAC6A3F1967F192002551A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WAR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Warif Akhand Rishi";
+				TargetAttributes = {
+					BCAC6A671967F193002551A9 = {
+						TestTargetID = BCAC6A461967F192002551A9;
+					};
+				};
+			};
+			buildConfigurationList = BCAC6A421967F192002551A9 /* Build configuration list for PBXProject "RotateButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCAC6A3E1967F192002551A9;
+			productRefGroup = BCAC6A481967F192002551A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCAC6A461967F192002551A9 /* RotateButton */,
+				BCAC6A671967F193002551A9 /* RotateButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCAC6A451967F192002551A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAC6A631967F192002551A9 /* Images.xcassets in Resources */,
+				BCAC6A551967F192002551A9 /* InfoPlist.strings in Resources */,
+				BCAC6A5E1967F192002551A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAC6A661967F193002551A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAC6A741967F193002551A9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCAC6A431967F192002551A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAC6A821967F1BD002551A9 /* RotateButton.m in Sources */,
+				BCAC6A611967F192002551A9 /* WARViewController.m in Sources */,
+				BCAC6A571967F192002551A9 /* main.m in Sources */,
+				BCAC6A5B1967F192002551A9 /* WARAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAC6A641967F193002551A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAC6A761967F193002551A9 /* RotateButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCAC6A6E1967F193002551A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAC6A461967F192002551A9 /* RotateButton */;
+			targetProxy = BCAC6A6D1967F193002551A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCAC6A531967F192002551A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAC6A541967F192002551A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCAC6A5C1967F192002551A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAC6A5D1967F192002551A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCAC6A721967F193002551A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAC6A731967F193002551A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCAC6A771967F193002551A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCAC6A781967F193002551A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCAC6A7A1967F193002551A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotateButton/RotateButton-Prefix.pch";
+				INFOPLIST_FILE = "RotateButton/RotateButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCAC6A7B1967F193002551A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotateButton/RotateButton-Prefix.pch";
+				INFOPLIST_FILE = "RotateButton/RotateButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCAC6A7D1967F193002551A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RotateButton.app/RotateButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotateButton/RotateButton-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RotateButtonTests/RotateButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BCAC6A7E1967F193002551A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RotateButton.app/RotateButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotateButton/RotateButton-Prefix.pch";
+				INFOPLIST_FILE = "RotateButtonTests/RotateButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCAC6A421967F192002551A9 /* Build configuration list for PBXProject "RotateButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAC6A771967F193002551A9 /* Debug */,
+				BCAC6A781967F193002551A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAC6A791967F193002551A9 /* Build configuration list for PBXNativeTarget "RotateButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAC6A7A1967F193002551A9 /* Debug */,
+				BCAC6A7B1967F193002551A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCAC6A7C1967F193002551A9 /* Build configuration list for PBXNativeTarget "RotateButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAC6A7D1967F193002551A9 /* Debug */,
+				BCAC6A7E1967F193002551A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCAC6A3F1967F192002551A9 /* Project object */;
+}
